@@ -14,5 +14,5 @@ app.use('/api/auth', require('./routes/api/auth'));
 
 const PORT = process.env.PORT || 5000;
 app.use(cors());
-
+// workiing
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
